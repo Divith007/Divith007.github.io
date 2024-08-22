@@ -1,0 +1,44 @@
+body
+{
+  background-color: black;
+}
+
+.header
+{
+background-color: color;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333; 
+}
+
+.aboutme, .project, .social {
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  text-decoration:none;
+  padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .aboutme, .project, .social {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutme, .project, .social {
+    font-size: 18px;
+    padding: 5px;
+  }
+}
+
+.info
+{ 
+    color:white;
+}

@@ -1,0 +1,98 @@
+body
+{
+  background-color: black;
+}
+
+.header
+{
+background-color: color;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333; 
+}
+
+.aboutme, .project, .social {
+  color: white;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  text-decoration:none;
+  padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .aboutme, .project, .social {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutme, .project, .social {
+    font-size: 18px;
+    padding: 5px;
+  }
+}
+ /* Main  Content */
+
+ .parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  line-height: auto;
+}
+/*Sections*/
+.child1
+{
+  display: inline-block;
+  border: 1px solid rgb(249, 249, 249);
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+.child2
+{
+  display: inline-block;
+  border: 1px solid rgb(249, 249, 249);
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+
+
+/*Section 1 */
+.parent,.child1,.name
+{
+color: white;
+text-align: left;
+font-family:'Cambria';
+font-size:30px;
+}
+.parent ,.child1 ,.s1
+{
+  color:white;
+  text-align: left;
+  font-family:'Times New Roman';
+}
+.parent ,.child1, .aboutmecontent
+{
+  color:white;
+  font-size:15px;
+}
+
+/*Section 2*/
+.parent,.child2,.title
+{
+  color:white;
+  text-align:left;
+  font-family: 'Cambria';
+  font-size:30px;
+}
+.parent,.child2,.skills
+{
+  font-size: 15px;
+}
